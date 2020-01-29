@@ -5,7 +5,7 @@ class EmailAddressParser
     @emails = emails
   end
   
- email_addresses = "kenneth_valdivia@yahoo.com, DamnFaZeKenVisgonnahappenandimaquitthisbullshitwhenIbecomefamousonYouTubeandmakemillionsonmillionsyerherKennethyerherr@godlike.com"
+ email_addresses = "kenneth_valdivia@yahoo.com, FaZeVekays@FaZeClan.com"
  parser = EmailAddressParser.new(email_addresses)
  
  parser.parse
