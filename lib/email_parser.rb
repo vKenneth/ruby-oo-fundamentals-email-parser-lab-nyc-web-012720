@@ -5,7 +5,7 @@ class EmailAddressParser
     @emails = emails
   end
   
- email_addresses = "../lib/email_parser"
+ email_addresses = 
  
  parser = EmailAddressParser.new(kenneth_valdivia@yahoo.com)
  
