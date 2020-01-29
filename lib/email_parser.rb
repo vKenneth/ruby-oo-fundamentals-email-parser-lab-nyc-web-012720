@@ -5,5 +5,5 @@ class EmailAddressParser
     @emails = emails
   end
   
-  email_addresses.new = (kenneth_valdivia@yahoo.com)
+ email_addresses = "kenneth_"
   
