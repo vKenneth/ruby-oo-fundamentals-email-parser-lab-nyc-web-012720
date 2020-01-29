@@ -5,12 +5,6 @@ class EmailAddressParser
     @emails = emails
   end
   
-# def parse
-#     emails.split(/, | /).uniq
-#   end
-# end
-
-email_address = "Kenneth_Valdivia@Yahoo.com"
-parser = EmailAddressParser.new(Kenneth_Valdivia@Yahoo.com)
+email_addresses = "kenneth_valdivia@yahoo.com, FaZeVekays@fuckingjoiningFaZe@FaZeyurher.com"
+parser = EmailAddressParser.new(email_addresses)
 parser.parse
-mail = Mail.read('/path/to/.eml')
