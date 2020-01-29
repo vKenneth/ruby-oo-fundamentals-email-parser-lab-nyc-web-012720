@@ -1,12 +1,14 @@
-class EmailAddressParser
-  attr_reader :email
+
+  
+ class EmailAddressParser
+  attr_reader :emails
 
   def initialize(emails)
     @emails = emails
   end
-  
- email_addresses = "kenneth_valdivia@yahoo.com, FaZeVekays@FaZeClan.com"
- parser = EmailAddressParser.new(email_addresses)
- 
- parser.parse
+
+  def parse
+    emails.split(/, | /).uniq
+  end
+end
   
